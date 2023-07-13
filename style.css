@@ -12,3 +12,8 @@
 .height{
     height: 500px;
 }
+.img{
+    width: 30px;
+    background-color: rgb(156, 115, 85);
+    padding: 5px;
+}
