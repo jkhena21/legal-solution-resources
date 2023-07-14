@@ -14,100 +14,146 @@
 <body>
 <header>
     <!-- Navbar section start -->
-    <div class="mx-auto p-2" style="width: 900px;">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo2.png" alt="logo" width="120" height="40">
-            </a>
-
-            <div class="navbar-nav mx-auto ">
-                <a class="nav-link text-dark mx-2" aria-current="page" href="#">Home</a>
-                <a class="nav-link text-dark mx-2" href="#services">Services <i class="fa-solid fa-chevron-right"></i></a>
-                <a class="nav-link text-dark mx-2" href="#cases">Cases <i class="fa-solid fa-chevron-right"></i></a>
-                <a class="nav-link text-dark mx-2" href="#blog">Blog <i class="fa-solid fa-chevron-right"></i></a>
-                <a class="nav-link text-dark mx-2" href="#contact">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
-            </div>
-                <button class="btn" type="button">Free Consultation</button>
-            </div>
-        </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo2.png" alt="" width="100" height="40">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Services <i class="fa-solid fa-chevron-right"></i></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Cases <i class="fa-solid fa-chevron-right"></i></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Blog <i class="fa-solid fa-chevron-right"></i></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact Us <i class="fa-solid fa-chevron-right"></i></a
+              >
+            </li>
+          </ul>
+          <form class="d-flex sm:hidden">
+            <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Free Consultation</button>
+          </form>
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" id="staticBackdropLabel">Welcome</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Here you can get consultation in a free of cost. Our specialists are here to help you. If you need any consultation do visit our site and connect with us.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <!-- Navbar section end -->
 
     <!-- Banner section start -->
-    <section id="banner" class="mt-4 mx-auto">
-        <div class="banner-text">
-            <h1 class="text-light text-center pt-5">We Provide Effective</h1><br>
-            <h1 class="text-light text-center">Legal Solutions</h1><br>
-            <p class="text-light text-center">If someone need any kind of legal help then we are here for you to provide <br>you effective legal solutions that you are looking for.</p>
-            <form class="d-flex w-50 mx-auto pt-2">
-                <input class="form-control me-2" type="search" placeholder="Search your secvice">
-                <button class="btn px-3 py-2" type="button">Search</button>
-            </form>
+    <section class="conatiner mt-4">
+      <div class="banner">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="my-5 py-5">
+            <h1 class="text-light text-center">We Provide Effective <br>Legal Solutions</h1><br>
+            <p class="text-light text-center pt-2">If someone need any kind of legal help then we are here for you to <br>provide you effective legal solutions that you are looking for.</p>
+            <div class="input-group sm:mx-auto px-5">
+              <input type="text" class="form-control rounded" placeholder="Search your secvice">
+              <button class="btn px-3 ms-3 rounded fw-bold" type="button">Search</button>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Banner section end -->
 </header>
 
 <main>
-    <!-- law section start -->
+    <!-- Law section start -->
     <section class="container">
-        <h2 class="text-center mt-5 pt-5">The Legal Practice Area</h2>
-        <p class="text-center mt-3">There are so many legal practice. We Provide legal practice for business law, criminal law, <br>child support, education law, divorce law, tax law etc.</p>
-
-        <div class="container py-5 w-75">
-            <div class="row">
-                <div class="col-sm-6 col-md-4 border text-center">
-                    <img class="py-3" src="images/business.png" alt="">
-                    <h3 class="py-3">Business Law</h3>
-                    <p class="text">Business law is for helping in any kind problem in business sector. This help you to solve your problem</p>
-                    <img  class="pb-3" src="images/Frame.png" alt="">
-                </div>
-                <div class="col-sm-6 col-md-4 border text-center bg-light">
-                    <img class="py-3" src="images/criminal.png" alt="">
-                    <h3 class="py-3">Criminal Law</h3>
-                    <p class="text">Criminal law is for helping in any kind problem in criminal offense. This help you to solve your problem</p>
-                    <img  class="pb-3" src="images/Frame.png" alt="">
-                </div>
-                <div class="col-sm-6 col-md-4 border text-center">
-                    <img class="py-3" src="images/child.png" alt="">
-                    <h3 class="py-3">Child Support</h3>
-                    <p class="text">Child support is for helping in problem with child issuse. This help you to solve your problem</p>
-                    <img  class="pb-3" src="images/Frame.png" alt="">
-                </div>
+      <h2 class="text-center mt-4 pt-3 fw-bold">The Legal Practice Area</h2>
+      <p class="text-center mt-3">There are so many legal practice. We Provide legal practice for business law, criminal law, <br>child support, education law, divorce law, tax law etc.</p>
+        <div class="container py-4 w-75">
+          <div class="row">
+            <div class="col-sm-6 col-md-4 border text-center">
+              <img class="py-3" src="images/business.png" alt="">
+              <h3 class="py-3">Business Law</h3>
+              <p class="text">Business law is for helping one in any kind of problem in business sector. This can help you to solve your problem.</p>
+              <img  class="pb-3" src="images/Frame.png" alt="">
             </div>
-
-            <div class="row">
-                <div class="col-sm-6 col-md-4 border text-center">
-                    <img class="py-3" src="images/education.png" alt="">
-                    <h3 class="py-3">Education Law</h3>
-                    <p class="text">Education law is for helping in education support system. This help you to solve your problem</p>
-                    <img  class="pb-3" src="images/Frame.png" alt="">
-                </div>
-                <div class="col-sm-6 col-md-4 border text-center">
-                    <img class="py-3" src="images/divorce.png" alt="">
-                    <h3 class="py-3">Divorce Law</h3>
-                    <p class="-text">Divorce law is for consulting is divorce purpose any kind of problem. It may give you right direction to solve your problem.</p>
-                    <img  class="pb-3" src="images/Frame.png" alt="">
-                </div>
-                <div class="col-sm-6 col-md-4 border text-center">
-                    <img class="py-3" src="images/tax.png" alt="">
-                    <h3 class="py-3">Tax Law</h3>
-                    <p class="text">You may take help from tax law when you needed if you are facing any problem with tax issue.</p>
-                    <img  class="pb-3" src="images/Frame.png" alt="">
-                </div>
+            <div class="col-sm-6 col-md-4 border text-center bg-light">
+              <img class="py-3" src="images/criminal.png" alt="">
+              <h3 class="py-3">Criminal Law</h3>
+              <p class="text">Criminal law is for helping one in any kind of problem in criminal offense.This can lead you to solve your problem.</p>
+              <img  class="pb-3" src="images/Frame.png" alt="">
             </div>
+            <div class="col-sm-6 col-md-4 border text-center">
+              <img class="py-3" src="images/child.png" alt="">
+              <h3 class="py-3">Child Support</h3>
+              <p class="text">Child support is for helping one in problem with child issues.This can help you to solve your problem.</p>
+              <img  class="pb-3" src="images/Frame.png" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-4 border text-center">
+              <img class="py-3" src="images/education.png" alt="">
+              <h3 class="py-3">Education Law</h3>
+              <p class="text">Education law is for helping people in education support system.This can help you to solve your problem.</p>
+              <img  class="pb-3" src="images/Frame.png" alt="">
+            </div>
+            <div class="col-sm-6 col-md-4 border text-center">
+              <img class="py-3" src="images/divorce.png" alt="">
+              <h3 class="py-3">Divorce Law</h3>
+              <p class="text">Divorce law is for consulting in divorce purpose any kind of problem. It may give you right direction to solve your problem.</p>
+              <img  class="pb-3" src="images/Frame.png" alt="">
+            </div>
+            <div class="col-sm-6 col-md-4 border text-center">
+              <img class="py-3" src="images/tax.png" alt="">
+              <h3 class="py-3">Tax Law</h3>
+              <p class="text">You may take help from tax law when you needed if you are facing any problem with tax issues.</p>
+              <img  class="pb-3" src="images/Frame.png" alt="">
+            </div>
+          </div>
         </div>
     </section>
-    <!-- law section end -->
+    <!-- Law section end -->
 
-    <!-- client section start -->
+    <!-- Client section start -->
     <section class="container">
-        <h2 class="text-center mt-5">What Our Client Say</h2>
-        <p class="text-center">We provided our services to so many client and everyone satisfied <br>with our services. Here some of review that client says.</p>
-
-        <div class="container py-5">
-        <div id="carouselExampleDark" class="carousel carousel-light slide">
+      <div class="text-center">
+        <h2 class="text-center mt-5 fw-bold">What Our Client Say</h2>
+        <p class="text-center">We provided our services to so many clients and everyone <br>satisfied with our services. Here some of review that client says.</p>
+        <div class="container py-4">
+          <div id="carouselExampleDark" class="carousel carousel-light slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -116,29 +162,29 @@
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
                 <img src="images/slider-1.jpg" class="d-block w-100 height" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <img src="images/person 1.png" alt="" class="w-25">
                   <h4 class="text-light">Awlad Hossain</h4>
                   <h5 class="text-light">UIX Designer</h5>
-                  <p class="text-light">The authorities carried out serious human rights violations including <br>enforced disappearances, unlawful detention, torture and extrajudicial executions.</p>
+                  <p class="text-light d-md-block">The authorities carried out serious human rights violations including <br>enforced disappearances, unlawful detention, torture and extrajudicial executions.</p>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
                 <img src="images/slider-2.jpg" class="d-block w-100 height" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <img src="images/person 2.png" alt="" class="w-25">
-                    <h4 class="text-light">David Dane</h4>
-                    <h5 class="text-light">Web Designer</h5>
-                    <p class="text-light">The authorities carried out serious human rights violations including <br>enforced disappearances, unlawful detention, torture and extrajudicial executions.</p>
+                <div class="carousel-caption d-md-block">
+                  <img src="images/person 2.png" alt="" class="w-25">
+                  <h4 class="text-light">David Dane</h4>
+                  <h5 class="text-light">Web Designer</h5>
+                  <p class="text-light d-md-block">The authorities carried out serious human rights violations including <br>enforced disappearances, unlawful detention, torture and extrajudicial executions.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/slider-3.jpg" class="d-block w-100 height" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <img src="images/person 3.png" alt="" class="w-25">
-                    <h4 class="text-light">watson cam</h4>
-                    <h5 class="text-light">Web Developer</h5>
-                    <p class="text-light">The authorities carried out serious human rights violations including <br>enforced disappearances, unlawful detention, torture and extrajudicial executions.</p>
+                <div class="carousel-caption d-md-block">
+                  <img src="images/person 3.png" alt="" class="w-25">
+                  <h4 class="text-light">watson cam</h4>
+                  <h5 class="text-light">Web Developer</h5>
+                  <p class="text-light d-md-block">The authorities carried out serious human rights violations including <br>enforced disappearances, unlawful detention, torture and extrajudicial executions.</p>
                 </div>
               </div>
             </div>
@@ -152,17 +198,17 @@
             </button>
           </div>
         </div>
+      </div>
     </section>
-    <!-- client section end -->
+    <!-- Client section end -->
 
-    <!-- Question section start -->
+    <!-- Question section start  -->
     <section class="conatiner">
-        <h2 class="text-center mt-5">Frequently Asked Any Questions</h2>
-        <p class="text-center mt-3">Here is some question and answer that are commonly asked by our customer. <br>Here we have present our frequently asked question.</p>
-
+      <h2 class="text-center mt-5 fw-bold">Frequently Asked Any Questions</h2>
+      <p class="text-center mt-3">Here given some questions and answers that are commonly asked by our clients. <br>Here we have present our frequently asked question.</p>
         <div class="container d-flex pt-4">
-        <div class="row row-cols-sm-1">
-        <div class="accordion accordion-flush col-md-6 order-lg-1 order-sm-2" id="accordionFlushExample">
+          <div class="row row-cols-sm-1">
+          <div class="accordion accordion-flush col-md-6 order-lg-1 order-sm-2" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -170,7 +216,7 @@
                 </button>
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">The basic difference between CSS flexbox and CSS grid layout is the flexbox was designed for one dimensional layout.Flexbox is either for a row or a column. Whereas grid layout is designed for two dimensional layout which is for row and column at the same time.</div>
+                <div class="accordion-body">The basic difference between CSS flexbox and CSS grid layout is that flexbox was designed for one dimensional layout.Flexbox is either for a row or a column. Whereas grid layout is designed for two dimensional layout which is for row and column at the same time.</div>
               </div>
             </div>
             <div class="accordion-item">
@@ -180,7 +226,7 @@
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Media queries are use to make a web design in responsive. Depending on the size of the viewport they allows to create different layout. Media queries make website responsive, flexible and user friendly. </div>
+                <div class="accordion-body">Media queries are use to make a website in responsive form. Depending on the size of the viewport they allows to create different layout. Media queries make website responsive, flexible and user friendly. </div>
               </div>
             </div>
             <div class="accordion-item">
@@ -200,50 +246,48 @@
                 </button>
               </h2>
               <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Tags that define the meaning of the content that they contain is known as SEmantic HTML tags.For Example header, article, footer, form, table are clearly defines its content.</div>
+                <div class="accordion-body">Tags that define the meaning of the content that they contain is known as Semantic HTML tags.For Example header, article, footer, form, table are clearly defines its content.</div>
               </div>
             </div>
-        </div>
-        <div class="col-md-6 order-lg-2 order-sm-1">
+          </div>
+          <div class="col-md-6 order-lg-2 order-sm-1">
             <img src="images/faq.png" alt="" class="w-75 ms-3">
-        </div>
-        </div>
+          </div>
+          </div>
         </div>
     </section>
     <!-- Question section end -->
 
-
     <!-- Contact section start -->
     <section class="conatiner">
-      <h2 class="text-center mt-5">Contact With Us</h2>
+      <h2 class="text-center mt-5 fw-bold">Contact With Us</h2>
       <p class="text-center mt-3">Here is our all contact source are provided. You can reach us by our address, <br>email and call.We are avilable in our working hours.</p>
-
         <div class="row my-5 mx-5">
           <div class="sm-col col-md-6">
             <div class="row">
             <div class="col-6 border text-center py-3 bg-light">
-                <img src="images/address.png" alt="">
-                <h4 class="mt-3">Address</h4>
-                <p>A108 Adam Street, <br>New York, NY 535022</p>
+              <img src="images/address.png" alt="">
+              <h4 class="mt-3">Address</h4>
+              <p>A108 Adam Street, <br>New York, NY 535022</p>
             </div>
             <div class="col-6 border text-center py-3 bg-light">
-                <img src="images/call.png" alt="">
-                <h4 class="mt-3">Call Us</h4>
-                <p>+88 01750 00 00 00 <br>+88 01750 00 00 00</p> 
+              <img src="images/call.png" alt="">
+              <h4 class="mt-3">Call Us</h4>
+              <p>+88 01750 00 00 00 <br>+88 01750 00 00 00</p> 
             </div>
 
             <div class="col-6 border text-center py-3 bg-light">
-                <img src="images/email.png" alt="">
-                <h4 class="mt-3">Email Us</h4>
-                <p>info@gmail.com <br>info@gmail.com</p>
+              <img src="images/email.png" alt="">
+              <h4 class="mt-3">Email Us</h4>
+              <p>info@gmail.com <br>info@gmail.com</p>
             </div>
             <div class="col-6 border text-center py-3 bg-light">
-                <img src="images/time.png" alt="">
-                <h4 class="mt-3">Working Hours</h4>
-                <p>Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM</p>
+              <img src="images/time.png" alt="">
+              <h4 class="mt-3">Working Hours</h4>
+              <p>Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM</p>
             </div>
-        </div>
-        </div>
+            </div>
+          </div>
 
       <div class="sm-col col-md-6 px-5">
         <div class="mt-2 mb-2">
@@ -258,11 +302,11 @@
         <div class="mb-2">
           <textarea name="" id="" rows="6" placeholder="Your Message" class="form-control w-75 bg-light"></textarea>
         </div>
-        <button class="btn mt-2 px-5 py-2 w-75">Send Message</button>
+        <button class="btn mt-2 px-5 py-2 w-75 fw-bold">Send Message</button>
       </div>
         </div>
-      </section>
-  <!-- Contact section end -->
+    </section>
+    <!-- Contact section end -->
 </main>
 
   <!-- footer section start -->
@@ -284,7 +328,7 @@
         </div>
         <div class="col-12 col-md-3 sm:text-left md:text-left lg:text-center">
           <h4 class="text-white">Contact Now</h4>
-          <p class="text-white mt-4">555 4th 5t NW, Washington
+          <p class="text-white mt-4">555 4th 5t NW,Washington<br>
             DC 20530, United States <br>
             +88 017XX XNXX XX <br>
             +88 017XX XNXX XX <br>
@@ -295,17 +339,16 @@
           <h4 class="text-white">Subscribe</h4>
           <p class="text-white mt-4">Subscribe for our latest & Articles. We Won’t Give You <br> Spam Mails</p>
           <div class="d-flex">
-          <input type="email" placeholder="Email Address" class="w-75 py-2">
-          <img src="images/send.svg" alt="" class="img">
+            <input type="email" placeholder="Email Address" class="w-75 py-2">
+            <img src="images/send.svg" alt="" class="img rounded">
           </div>
-
         </div>
       </div>
     </div>
   </section>
-  <!-- footer section start -->
+  <!-- footer section end -->
     
-    <!-- BS js -->
+  <!-- BS js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
